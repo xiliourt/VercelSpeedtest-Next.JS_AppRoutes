@@ -1,0 +1,25 @@
+{
+  "name": "@xiliourt/xiliourt-speed-test",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "startAzure": "./node_modules/next/dist/bin/next start",
+    "CFBuild": "next build && esbuild _worker.js --bundle --outfile=out/_worker.js --format=esm"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "html2canvas": "1.4.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3",
+    "postcss": "^8.4.38",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4"
+  }
+}

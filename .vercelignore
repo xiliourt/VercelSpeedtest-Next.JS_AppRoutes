@@ -1,0 +1,6 @@
+.github/*
+.npm/*
+.fly.toml
+:(exclude).github/*
+:(exclude).npm/*
+:(exclude).fly.toml
